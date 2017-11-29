@@ -12,6 +12,7 @@ body {
     width:50%;
     height: 500px;
     float:left;
+    max-width:100%;height:auto;
         
   }
   
@@ -21,6 +22,7 @@ body {
     float:right;
     background:url("adam.png");
     background-color: black;
+    max-width:100%;height:auto;
   }
   
 .footer {
@@ -28,6 +30,7 @@ body {
     margin-bottom:0;
     width:100%;
     height: 200px;
+    max-width:100%;height:auto;
     
     
   }
@@ -38,6 +41,7 @@ div{
     flex-direction:column;
     padding-left: 100px;
     padding-top:100px;
+    max-width:100%;height:auto;
 
   }
 
@@ -48,10 +52,12 @@ ul {
     top:80%;
     left: 30%;
     transform: translate(-50%, -50%);
+    max-width:100%;height:auto;
   }
 
 ul li{
     list-style: none;
+    max-width:100%;height:auto;
   }
 
 ul li a{
@@ -67,6 +73,7 @@ ul li a{
     position: relative;
     overflow:hidden;
     border: 3px solid #fff;
+    max-width:100%;height:auto;
 
   }
 
@@ -74,6 +81,7 @@ ul li a .fa{
     position: relative;
     color:white;
     transition: .5s;
+    max-width:100%;height:auto;
   }
 
   
